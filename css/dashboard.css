@@ -1,0 +1,74 @@
+html, body{
+	height: 100%;
+	overflow: hidden;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica;
+	background-color: #f7f7f7;
+}
+
+button{
+	position: absolute;
+	z-index: 2;
+	border: none;
+	background-color: #088A08;
+	padding: 1.5rem;
+	padding-left: 2rem;
+	font-size: 3rem;
+	outline: none;
+	border-radius: 0 0 15px 0;
+}
+
+nav{
+	position: absolute;
+	width: 60%;
+	min-width: 200px;
+	padding-top: 6.1rem;
+	background-color: #EDFFEE;
+	height: 100%;
+	box-shadow: 0 0 10px 1px black;
+}
+
+nav ul li a{
+	text-decoration: none;
+	display: block;
+	padding: 2.5rem;
+	font-size: 1.8rem;
+	color: black;
+}
+
+nav ul li a:hover{
+	background-color: #088A08;
+	color: white;
+	transition: .3s;
+}
+
+nav ul li:last-child{
+	margin-top: 7rem;
+}
+
+
+nav ul li i{
+	font-size: 3rem;
+	margin-right: 1.5rem;
+	color: #088A08;
+}
+
+/******* centro  *******/
+
+img{
+	float: right;
+}
+
+#video{
+	clear: both;
+	padding-top: 20%;
+	text-align: center;
+}
