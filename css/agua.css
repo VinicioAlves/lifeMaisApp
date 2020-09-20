@@ -74,6 +74,7 @@ button:hover{
 
 .voltar{
 	background: #aaa;
+	margin-bottom: 50px;
 }
 
 table{
@@ -85,5 +86,10 @@ table{
 th, td{
 	border-top: 1px solid black;
 	padding: 15px;
+}
+
+.clear{
+	clear: both;
+	padding-top: 50px;
 }
 

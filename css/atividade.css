@@ -94,6 +94,7 @@ button:last-child{
 
 .voltar{
 	background: #aaa;
+	margin-bottom: 50px;
 }
 
 img{
@@ -102,4 +103,19 @@ img{
 
 .float{
 	float: right;
+}
+
+h1{
+	margin-top: 80px;
+}
+
+table{
+	width: 100%;
+	font-size: 1.4em;
+	margin: 50px 0;
+}
+
+th, td{
+	border-top: 1px solid black;
+	padding: 15px;
 }
