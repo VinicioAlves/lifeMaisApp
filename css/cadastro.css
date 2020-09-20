@@ -79,3 +79,8 @@ button:last-child{
 	margin-bottom: 50px;
 }
 
+.clear{
+	padding-top: 6rem;
+	padding-bottom: 3rem;
+	clear: both;
+}

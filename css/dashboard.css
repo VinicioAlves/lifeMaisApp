@@ -72,3 +72,46 @@ img{
 	padding-top: 20%;
 	text-align: center;
 }
+
+form{
+	width: 90%;
+	margin: 20px;
+	clear: both;
+}
+
+label{
+	margin-left: 3rem;
+	font-size: 1.3em;
+}
+
+input{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	height: 80px;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	padding: 20px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input:focus{
+	border: 2px solid #088A08;
+}
+
+.editar button{
+	position: absolute;
+	z-index: -1;
+	font-size: 1.8em;
+	width: 40%;
+	height: 80px;
+	border: none;
+	border-radius: 10px;
+	color: black;
+	opacity: .9;
+	margin-left: 48%;
+	background-color: #E7CD05;
+}
