@@ -11,29 +11,33 @@ body{
 
 #container{
 	text-align: center; /*#f7f7f7*/
-	margin-top: 30%;
+	margin-top: 10%;
 	position: relative;
+}
+
+img{
+	width: 40%;
 }
 
 i{
 	position: absolute;
-	margin-left: -270px;
-	padding-top: 17px;
-	font-size: 2.5em;
+	margin-left: -35%;
+	padding-top: 6px;
+	font-size: 2.0em;
 	color: #088A08;
 }
 
 
 input{
-	font-size: 1.8em;
+	font-size: 1.4em;
 	text-transform: uppercase;
-	height: 80px;
-	width: 60%;
+	height: 2em;
+	width: 80%;
 	display: block;
 	margin: 0 auto;
-	margin-top: 60px;
-	margin-bottom: 60px;
-	padding: 20px 80px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-left: 20%;
 	box-sizing: border-box;
 	outline: none;
 }
@@ -43,16 +47,65 @@ input:focus{
 }
 
 button{
-	width: 40%;
-	height: 80px;
+	width: 45%;
+	height: 1.6em;
 	border: none;
 	border-radius: 10px;
 	color: white;
 	background-color: #088A08;
 	font-size: 2em;
 	opacity: .9;
+	margin: 60px 0;
 }
 
 button:hover{
+	cursor: pointer;
 	opacity: 1;
+}
+
+@media(min-width: 768px){
+	img{
+		width: 20%;
+	}
+
+	input{
+		width: 50%;
+		padding-left: 10%;
+	}
+
+	i{
+	margin-left: -22%;
+	font-size: 2.2em;
+	}
+
+	#container{ 
+	margin-top: 1%;
+	}
+
+	button{
+		width: 30%;
+	}
+}
+
+@media(min-width: 1440px){
+	img{
+		width: 15%;
+	}
+
+	input{
+		width: 30%;
+		padding-left: 5%;
+	}
+
+	i{
+	margin-left: -14%;
+
+	}
+	#container{ 
+	margin-top: 1%;
+	}
+
+	button{
+		width: 15%;
+	}
 }

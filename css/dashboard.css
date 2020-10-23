@@ -1,6 +1,5 @@
 html, body{
 	height: 100%;
-	overflow: hidden;
 }
 
 *{
@@ -19,28 +18,34 @@ button{
 	z-index: 2;
 	border: none;
 	background-color: #088A08;
-	padding: 1.5rem;
-	padding-left: 2rem;
-	font-size: 3rem;
+	padding: 1rem;
+	padding-left: 1.3rem;
+	font-size: 2rem;
 	outline: none;
 	border-radius: 0 0 15px 0;
 }
 
+button:hover{
+	cursor: pointer;
+}
+
 nav{
 	position: absolute;
-	width: 60%;
+	width: 80%;
 	min-width: 200px;
-	padding-top: 6.1rem;
+	padding-top: 5rem;
 	background-color: #EDFFEE;
 	height: 100%;
 	box-shadow: 0 0 10px 1px black;
+	overflow: auto;
 }
+
 
 nav ul li a{
 	text-decoration: none;
 	display: block;
-	padding: 2.5rem;
-	font-size: 1.8rem;
+	padding: 1.5rem;
+	font-size: 1.2rem;
 	color: black;
 }
 
@@ -51,21 +56,33 @@ nav ul li a:hover{
 }
 
 nav ul li:last-child{
-	margin-top: 7rem;
+	padding-top: 4.5rem;
 }
 
 
 nav ul li i{
-	font-size: 3rem;
-	margin-right: 1.5rem;
+	font-size: 2rem;
+	margin-right: 1rem;
 	color: #088A08;
 }
+
+
+
+
+
+
+
+
+
+
 
 /******* centro  *******/
 
 img{
 	float: right;
+	width: 30%;
 }
+
 
 #video{
 	clear: both;
@@ -73,43 +90,46 @@ img{
 	text-align: center;
 }
 
-form{
-	width: 90%;
-	margin: 20px;
-	clear: both;
+
+
+
+/****** MEDIA ***********/
+
+
+@media(min-width: 768px){
+	nav{
+		width: 50%;
+	}
+
+	img{
+		width: 20%;
+	}
+
+	iframe{
+		width: 600px;
+		height: 400px;
+	}
+
+	#video{
+		padding-top: 10%;
+	}
 }
 
-label{
-	margin-left: 3rem;
-	font-size: 1.3em;
-}
+@media(min-width: 1024px){
+	nav{
+		width: 30%;
+	}
 
-input{
-	text-transform: uppercase;
-	font-size: 1.5em;
-	height: 80px;
-	width: 90%;
-	display: block;
-	margin: 0 auto;
-	margin-top: 10px;
-	margin-bottom: 60px;
-	padding: 20px;
-	box-sizing: border-box;
-	outline: none;
-}
+	img{
+		width: 10%;
+	}
 
-input:focus{
-	border: 2px solid #088A08;
-}
+	iframe{
+		width: 600px;
+		height: 400px;
+	}
 
-.editar{
-	font-size: 1.8em;
-	width: 26%;
-	height: 80px;
-	border: none;
-	border-radius: 10px;
-	color: black;
-	opacity: .9;
-	margin-left: 62%;
-	background-color: #E7CD05;
+	#video{
+		padding-top: 1%;
+	}
 }
