@@ -9,14 +9,15 @@ body{
 }
 
 #container{
-	width: 80%;
+	width: 95%;
 	margin: 0 auto;
 	text-align: center; /*#f7f7f7*/
-	padding-top: 50px;
+	padding-top: 5px;
 }
 
 img{
 	float: left;
+	width: 30%;
 }
 
 .float{
@@ -31,7 +32,7 @@ form{
 input{
 	text-transform: uppercase;
 	font-size: 1.5em;
-	height: 80px;
+	height: 60px;
 	width: 90%;
 	display: block;
 	margin: 0 auto;
@@ -52,8 +53,8 @@ label{
 
 button{
 	font-size: 1.8em;
-	width: 40%;
-	height: 80px;
+	width: 50%;
+	height: 60px;
 	border: none;
 	border-radius: 10px;
 	color: white;
@@ -62,13 +63,14 @@ button{
 
 button:hover{
 	opacity: 1;
+	cursor: pointer;
 }
 
 button:last-child{
 	margin-top: 30px;
 }
 
-h1{
+h2{
 	margin-top: 50px;
 }
 
@@ -82,32 +84,87 @@ h1{
 }
 
 .left{
-	margin-top: 20px;
-	margin-left: 20px;
-	float: left;
-	width: 45%;
+	margin-top: 10px;
+	width: 100%;
 }
 
 .right{
-	margin-top: 20px;
-	margin-right: 20px;
-	float: right;
-	width: 45%;
+	width: 100%;
 }
 
 .clear{
 	clear: both;
-	padding-top: 6rem;
+}
 
+#hidden{
+	display: none;
 }
 
 table{
-	width: 100%;
+	width: 90%;
 	font-size: 1.4em;
-	margin: 50px -30px;
+	margin: 50px auto;
 }
 
 th, td{
 	border-top: 1px solid black;
 	padding: 15px;
+}
+
+
+@media(min-width: 425px){
+	.left{
+		margin-top: 10px;
+		margin-left: 20px;
+		float: left;
+		width: 45%;
+	}
+
+	.right{
+		margin-top: 10px;
+		margin-right: 20px;
+		float: right;
+		width: 45%;
+	}
+
+	img{
+		width: 20%;
+	}
+
+	h3{
+		font-size: 1.5rem;
+	}
+}
+
+@media(min-width: 768px){
+	input{
+		width: 80%;
+	}
+
+	button{
+		width: 20%;
+	}
+
+	form button{
+		width: 40%;
+	}
+
+	input[type="date"]{
+		width: 80%;
+		margin-right: 5%;
+	}
+
+	input[type="time"]{
+		width: 80%;
+		margin-left: 5%;
+	}
+
+	#container form{
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	#hidden{
+		display: block;
+	}
 }

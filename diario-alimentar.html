@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/diario-alimentar.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Diário alimentar</title>
 </head>
 <body>
@@ -12,14 +13,14 @@
 		<img src="imgs/logo.jpg">
 
 		<div class="float">
-			<h2>meu diário alimentar</h2>
+			<h3>meu diário alimentar</h3>
 		</div>
 
 
 		<form>
 			<div class="left">
 				<label>Dia</label>
-			<input type="date" name="dataAtividade">
+				<input type="date" name="dataAtividade">
 			</div>
 
 			<div class="right">	
@@ -40,9 +41,8 @@
 
 		</form>
 
-
-		<div>
-			<h1>RESUMO DOS ÚLTIMOS DIAS</h1>
+		<div id="hidden">
+			<h2>RESUMO DOS ÚLTIMOS DIAS</h2>
 
 		<table>
 			<tr>
@@ -79,11 +79,55 @@
 			</tr>
 			
 		</table>
-	</div>
+		</div>
+
+
 
 		<a href="dashboard.html"><button class="voltar">voltar</button></a>
+		
 	</div>
+
+		
 
 
 </body>
 </html>
+
+<!-- 
+
+	<table>
+			<tr>
+				<th>DATA</th>
+				<th>HORA</th>
+				<th>ALIMENTO</th>
+				<th>QUANTIDADE</th>
+				<th>LOCAL</th>
+				<th>SENTIMENTO</th>
+			</tr>
+			<tr>
+				<td>16/09/2020</td>
+				<td>15:54</td>
+				<td>Frango frito</td>
+				<td>3 pedaços</td>
+				<td>Em casa</td>
+				<td>Normal</td>
+			</tr>
+			<tr>
+				<td>15/09/2020</td>
+				<td>12:20</td>
+				<td>Arroz e feijão</td>
+				<td>300g</td>
+				<td>Em casa</td>
+				<td>Satisfeito</td>
+			</tr>
+			<tr>
+				<td>15/09/2020</td>
+				<td>07:10</td>
+				<td>Pão francês</td>
+				<td>1</td>
+				<td>Padaria</td>
+				<td>Insatisfeito</td>
+			</tr>
+			
+		</table>
+-->

@@ -9,15 +9,17 @@ body{
 }
 
 #container{
-	width: 80%;
+	width: 95%;
 	margin: 0 auto;
 	text-align: center; /*#f7f7f7*/
-	padding-top: 50px;
+	margin-top: 5px;
 }
 
 img{
 	float: left;
+	width: 30%;
 }
+
 
 .float{
 	float: right;
@@ -55,7 +57,7 @@ label{
 button{
 	font-size: 1.8em;
 	width: 40%;
-	height: 80px;
+	height: 60px;
 	border: none;
 	border-radius: 10px;
 	color: white;
@@ -64,6 +66,7 @@ button{
 
 button:hover{
 	opacity: 1;
+	cursor: pointer;
 }
 
 button:last-child{
@@ -83,4 +86,21 @@ button:last-child{
 	padding-top: 6rem;
 	padding-bottom: 3rem;
 	clear: both;
+}
+
+
+/********** MEDIA *******/
+
+@media(min-width: 768px){
+	img{
+		width: 20%;
+	}
+
+	button{
+		width: 30%;
+	}
+
+	h3{
+		font-size: 1.5rem;
+	}
 }

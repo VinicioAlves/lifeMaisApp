@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/agua.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Consumo de água</title>
 </head>
 <body>
@@ -12,44 +13,50 @@
 		<img src="imgs/logo.jpg">
 
 		<div class="float">
-			<h2>meu consumo de água</h2>
+			<h3>meu consumo de água</h3>
 		</div>
 
 
 		<form>
+			<label>Dia</label><br>
 			<input type="date" name="data">
-			<input type="number" name="quantidade" placeholder="quantidade em copos">
+
+			<label>Quantidade em copos</label><br>
+			<input type="number" name="quantidade" placeholder="1">
+
 			<button type="submit" class="salvar">salvar</button>
 
 		</form>
 
-		<h1>RESUMO DOS ÚLTIMOS DIAS</h1>
+		<div class="tabela">
+			<h3>RESUMO DOS ÚLTIMOS DIAS</h3>
 
-		<table>
-			<tr>
-				<th>DATA</th>
-				<th>QNT EM COPOS</th>
-			</tr>
-			<tr>
-				<td>16/09/2020</td>
-				<td>4</td>
-			</tr>
-			<tr>
-				<td>15/09/2020</td>
-				<td>5</td>
-			</tr>
-			<tr>
-				<td>14/09/2020</td>
-				<td>3</td>
-			</tr>
-			<tr>
-				<td>13/09/2020</td>
-				<td>7</td>
-			</tr>
-			
-		</table>
+			<table>
+				<tr>
+					<th>DATA</th>
+					<th>QNT EM COPOS</th>
+				</tr>
+				<tr>
+					<td>16/09/2020</td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>15/09/2020</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>14/09/2020</td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>13/09/2020</td>
+					<td>7</td>
+				</tr>
+				
+			</table>
 
-		<a href="dashboard.html"><button class="voltar">voltar</button></a>
+			<a href="dashboard.html"><button class="voltar">voltar</button></a>
+		</div>
 	</div>
 
 

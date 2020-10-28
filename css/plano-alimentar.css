@@ -15,35 +15,100 @@ body{
 	padding-top: 50px;
 }
 
-
 img{
 	float: left;
+	width: 30%;
 }
 
 .float{
 	float: right;
 }
 
+h2{
+	font-size: 1rem;
+}
+
+form{
+	padding-top: 20px;
+	clear: both;
+}
+
+input:focus{
+	border: 2px solid #088A08;
+}
+
+label{
+	font-size: 1rem;
+	width: 90%;
+	padding: 10px 0;
+	margin: 2rem auto;
+	background-color: #ddd; 
+	border: none;
+	border-radius: 5px;
+}
+
+label:hover{
+	cursor: pointer;
+	border: 2px solid #088A08;
+}
+
+i{
+	color: #088A08;
+	padding-right: 10px;
+	font-size: 1.4rem;
+}
 
 button{
-	font-size: 1.8em;
-	width: 40%;
-	height: 80px;
+	font-size: 1.4em;
+	width: 50%;
+	height: 40px;
 	border: none;
 	border-radius: 10px;
 	color: white;
-	margin-top: 8rem;
 	opacity: .9;
+	margin-top: 8rem;
 }
 
 button:hover{
-	cursor: pointer;
 	opacity: 1;
 }
 
 
+button:last-child{
+	margin-top: 30px;
+}
+
+.salvar{
+	background: #088A08;
+}
 
 .voltar{
 	background: #aaa;
 	margin-bottom: 50px;
+}
+
+@media(min-width: 768px){
+	button{
+		width: 30%;
+		height: 60px;
+	}
+
+	h2{
+		font-size: 2rem;
+	}
+
+	img{
+		width: 20%;
+	}
+
+	label{
+		width: 40%;
+		padding-left: 10px;
+	}
+}
+
+@media(min-width: 1024px){
+	label{
+		margin-top: 1rem;
+	}
 }

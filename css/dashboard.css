@@ -47,6 +47,7 @@ nav ul li a{
 	padding: 1.5rem;
 	font-size: 1.2rem;
 	color: black;
+	
 }
 
 nav ul li a:hover{
@@ -88,6 +89,24 @@ img{
 	clear: both;
 	padding-top: 20%;
 	text-align: center;
+}
+
+input{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	height: 80px;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 60px;
+	padding: 20px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input:focus{
+	border: 2px solid #088A08;
 }
 
 
