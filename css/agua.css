@@ -15,7 +15,10 @@ body{
 	padding-top: 5px;
 }
 
-
+img{
+	float: left;
+	width: 30%;
+	}
 
 .float{
 	float: right;
@@ -30,7 +33,6 @@ label{
 	display: block;
 }
 
-
 input{
 	text-transform: uppercase;
 	font-size: 1.4rem;
@@ -44,7 +46,6 @@ input{
 	box-sizing: border-box;
 	outline: none;
 }
-
 
 input:focus{
 	border: 2px solid #088A08;

@@ -93,6 +93,7 @@ h2{
 }
 
 .clear{
+	padding-top: 50px;
 	clear: both;
 }
 
@@ -102,7 +103,7 @@ h2{
 
 table{
 	width: 90%;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	margin: 50px auto;
 }
 

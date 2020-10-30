@@ -1,5 +1,5 @@
 html, body{
-	height: 100%;
+	height: 100vh;
 }
 
 *{
@@ -23,10 +23,12 @@ button{
 	font-size: 2rem;
 	outline: none;
 	border-radius: 0 0 15px 0;
+	opacity: .9;
 }
 
 button:hover{
 	cursor: pointer;
+	opacity: 1;
 }
 
 nav{
@@ -47,7 +49,6 @@ nav ul li a{
 	padding: 1.5rem;
 	font-size: 1.2rem;
 	color: black;
-	
 }
 
 nav ul li a:hover{
@@ -71,12 +72,6 @@ nav ul li i{
 
 
 
-
-
-
-
-
-
 /******* centro  *******/
 
 img{
@@ -93,23 +88,44 @@ img{
 
 input{
 	text-transform: uppercase;
-	font-size: 1.5em;
-	height: 80px;
-	width: 90%;
+	font-size: 1.3em;
+	height: 60px;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
-	margin-top: 30px;
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 	padding: 20px;
 	box-sizing: border-box;
 	outline: none;
+	background-color: #ddd;
 }
+
+
 
 input:focus{
 	border: 2px solid #088A08;
 }
 
+form{
+	padding-top: 30px;
+	width: 90%;
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+}
 
+.editar{
+	font-size: 1.8em;
+	width: 40%;
+	height: 60px;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	position: relative;
+	z-index: -1;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
 
 
 /****** MEDIA ***********/
@@ -132,6 +148,11 @@ input:focus{
 	#video{
 		padding-top: 10%;
 	}
+
+	input{
+		width: 60%;
+	}
+
 }
 
 @media(min-width: 1024px){
@@ -143,6 +164,10 @@ input:focus{
 		width: 10%;
 	}
 
+	input{
+		width: 45%;
+	}
+
 	iframe{
 		width: 600px;
 		height: 400px;
@@ -150,5 +175,9 @@ input:focus{
 
 	#video{
 		padding-top: 1%;
+	}
+
+	.editar{
+		width: 20%;
 	}
 }
