@@ -39,7 +39,7 @@ nav{
 	background-color: #EDFFEE;
 	height: 100%;
 	box-shadow: 0 0 10px 1px black;
-	overflow: auto;
+	overflow: hidden;
 }
 
 
