@@ -95,7 +95,7 @@ th, td{
 
 .clear{
 	clear: both;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 .tabela{
@@ -115,7 +115,12 @@ th, td{
 	}
 
 	input{
-		width: 50%;
+		width: 30%;
+		padding-left: 10%;
+	}
+
+	input[type="number"]{
+		padding-left: 15%;
 	}
 
 	button{

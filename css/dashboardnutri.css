@@ -37,7 +37,6 @@ nav{
 	min-width: 200px;
 	padding-top: 5rem;
 	background-color: #EDFFEE;
-	height: 100%;
 	box-shadow: 0 0 10px 1px black;
 }
 
@@ -69,21 +68,11 @@ nav ul li i{
 }
 
 
-
-
-
 /******* centro  *******/
 
 img{
 	float: right;
 	width: 30%;
-}
-
-
-#video{
-	clear: both;
-	padding-top: 20%;
-	text-align: center;
 }
 
 input{
